@@ -78,3 +78,11 @@ for estudiante in profesor1.estudiantes:
     print(estudiante.nombre)
 
 profesor1.asignarTarea(tarea1)
+
+
+from beneficios import CambiarFecha
+
+beneficio1 = CambiarFecha()
+
+estudiante1.canjearBeneficio(beneficio1, profesor1)
+
