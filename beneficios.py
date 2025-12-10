@@ -17,6 +17,7 @@ class PuntosExtra(Beneficio):
 
 class Tutorias(Beneficio):
     def __init__(self):
-         nombre="Faltar a tutorias"
+         nombre="Faltar a Tutorias"
          costo=200
          super().__init__(nombre=nombre, costo=costo)
+
