@@ -1,4 +1,4 @@
-from beneficios import tutorias, puntosExtra, cambiarFecha
+from beneficios import Tutorias, puntosExtra, cambiarFecha
 from usuario import profesor, estudiante
 from tareas import trabajoPractico
 
@@ -91,5 +91,6 @@ from beneficios import CambiarFecha
 beneficio1 = CambiarFecha()
 
 estudiante1.canjearBeneficio(beneficio1, profesor1)
+
 
 
